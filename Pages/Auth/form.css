@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.Login-body{
+    background-image: url('../../access/img/LoginBackGround.png'); 
+    background-size: cover;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.rick-and-morty-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #36313181;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.726);
+  }
+  
+  .rick-and-morty-form div {
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.849);
+  }
+  
+  .rick-and-morty-form input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid #444;
+    border-radius: 7px;
+    background-color: #3333339c;
+    color: #ffffff81;
+  }
+  
+  .rick-and-morty-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #275f6ebb;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .rick-and-morty-form button:hover {
+    background-color: #4fa3d1; 
+  }
+  
+  .rick-and-morty-form span {
+    color: #ff4d4d; 
+  }
+  

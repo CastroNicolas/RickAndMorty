@@ -1,0 +1,76 @@
+.card {
+  background-color: #00000091;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  padding: 20px; /* Espaciado interno */
+  margin: 10px;
+  transition: transform 0.3s ease; /* Efecto de transición al pasar el ratón sobre la tarjeta */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Hace que la tarjeta sea ligeramente más grande al pasar el ratón sobre ella */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px 0 0;
+  object-fit: cover; /* Ajusta la imagen para que cubra completamente el contenedor */
+}
+
+.card-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  z-index: 1;
+  color: aliceblue;
+}
+
+.card-button {
+  background-image: url('../../access/img/iconseliminar.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out ;
+}
+
+.card-button:hover {
+  background-color: #666;
+  transform: scale(1.2);
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+.favButton{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  font-size: 2em;
+  transition: transform 0.3s ease-in-out ;
+
+}
+
+.favButton:hover {
+  transform: scale(1.2);
+}

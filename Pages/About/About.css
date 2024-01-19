@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+    background-image: url('../../access/img/AboutBackGround.jpg'); 
+    background-size: contain;
+    background-attachment: initial;
+    background-position: center;
+    width: 100%;
+    position: fixed;
+    min-height: 100vh;
+    padding-top: 60px;
+  }
+  
+  .headerAbout {
+    background-color: #33333304;
+    color: #ffffffe7;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1; 
+  }
+  
+  .headerAbout h1 {
+    margin: 0;
+  }
+
+  .about-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f975;
+    padding: 20px;
+    width: 70%; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.945); 
+    border-radius: 10px;
+  }
+  
+  .about-content p {
+    margin: 0; 
+  }
+  
+  footer {
+    background-color: #3333330a; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    padding: 20px; /* Espaciado interno del pie de página */ 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-around; /* Distribuir los elementos de manera uniforme */
+    align-items: center;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #fff; /* Color del enlace en el pie de página */
+    text-decoration: underline; /* Subrayar el enlace */
+    margin-top: 5px;
+    display: inline-block;
+  }
+

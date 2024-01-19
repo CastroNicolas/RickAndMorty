@@ -1,0 +1,44 @@
+.Favorite-body {
+  background-image: url('../../access/img/FavoriteBackGround.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.Favorite-selectors {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.Favorite-selectors select {
+  margin: 0 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Favorite-selectors select option {
+  background-color: #fff; 
+  color: #333; 
+  padding: 8px;
+}
+
+.Favorite-selectors select option:hover {
+  background-color: #f0f0f0; /* Cambiar color de fondo al pasar el ratón */
+}
+
+.Favorite-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin-bottom: 25px;
+}

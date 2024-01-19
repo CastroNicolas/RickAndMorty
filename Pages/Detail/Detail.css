@@ -1,0 +1,45 @@
+.Detail-body{
+    background-image: url('../../access/img/DetailBackGround.jpg'); 
+    background-size: cover;
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px;
+  }
+  
+  .detail-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 30px;
+    box-shadow: 0px 4px 8px rgba(34, 170, 52, 0.842);
+  }
+  
+  .detail-data {
+    flex-grow: 1;
+    text-align: left;
+    background-color: #47862334;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(50, 139, 57, 0.712);
+  }
+  
+  .detail-data h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: #000000ea;
+  }
+  
+  .detail-data h2 {
+    font-size: 2em;
+    margin: 5px 0;
+    color: #000000d7;
+  }
