@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+/* eslint-disable react/prop-types*/
 import { NavLink } from "react-router-dom";
 import SearchBar from "../Search/SearchBar";
 import './Nav.css';
