@@ -4,7 +4,7 @@ import "./Favorites.css";
 import { filterCards, orderCards } from "../../redux/actions";
 
 export const Favorites = () => {
-  const myFavorites = useSelector((state) => state.myFavorites);
+  const myFavorites = useSelector((state) => state.allCharacters);
   const dispatch = useDispatch(); 
 
   const handleOrder = (e) => {
