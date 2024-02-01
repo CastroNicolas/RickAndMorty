@@ -17,20 +17,20 @@ export const Nav = ({ onSearch, onLogout  }) => {
       </NavLink>
       
       <NavLink
-        to="/about"
-        className={({ isActive, isPending }) =>
-          isPending ? "pending" : isActive ? "active" : ""
-        }
-      >
-        <h2>About</h2>
-      </NavLink>
-      <NavLink
         to="/favorites"
         className={({ isActive, isPending }) =>
           isPending ? "pending" : isActive ? "active" : ""
         }
       >
         <h2>Favorites</h2>
+      </NavLink>
+      <NavLink
+        to="/about"
+        className={({ isActive, isPending }) =>
+          isPending ? "pending" : isActive ? "active" : ""
+        }
+      >
+        <h2>About</h2>
       </NavLink>
       
       <SearchBar onSearch={onSearch} />
